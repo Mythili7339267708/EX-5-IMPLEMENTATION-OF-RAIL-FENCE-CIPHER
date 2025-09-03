@@ -68,7 +68,7 @@ int main() {
     printf("Encrypted Message: ");
     for (i = 0; i < rails; i++) {
         for (j = 0; j < len; j++) {
-            if (rail[i][j] != '\n')
+            if (rail[i][j] != '\n') 
                 printf("%c", rail[i][j]);
         }
     }
